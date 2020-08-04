@@ -31,7 +31,7 @@ class cisco_vuln(object):
         self.prox = {}
         self.bearer_token = {}
         self._token_ = ()
-        self.path = 'C:/Users/david.murphy/documents/Python/'
+        self.path = 'C:/Users/'
     # time tracker
     def timestamp(method):
        def wrapper(*args, **kwargs):
