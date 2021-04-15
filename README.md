@@ -20,5 +20,5 @@ In addition, there is an option to utilize sqlite3 and a database, for structure
 ###### 3. Execute main job with python (e.g. python -i all_jobs.py) to run programs
 ###### 4. Optional: Import your network infrascrutures inventory into the sqlite database, and preform data comparison (i.e SQL comparison)
 
-#### Additional 
-###### Running 'vuln_cvrf.py' requires the use of the Sqlite DB referenced earlier. If this script is intiated, it will download the cvrf data from Cisco for all the Vulns you stored earlier.
+#### Additionals
+Running vuln_cvrf.py requires the use of the Sqlite DB referenced earlier. If this script is intiated, it will iniate the download of cvrf data from Cisco for all the Vulns you stored earlier, into a searlized xml format.
