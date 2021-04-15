@@ -13,12 +13,12 @@ This script simplifies auth, data retrevial, and storing.
 In addition, there is an option to utilize sqlite3 and a database, for structured psirt vuln data storing.
 
 #### How to run:
-##### requires python 3.x
-###### 0. The scripts allows data storing and cred retrevial to be done in the native directory of which the script is running, you can manually modify it if you so choose.
-###### 1. Verify you have SQLite DB application (https://sqlitebrowser.org/), if you desire to utilize a sql database, and correlating script 'all_sql.py'
-###### 2. Verify you have all the correct py libraries installed (e.g. pip -install {libary_name}) 
-###### 3. Execute main job with python (e.g. python -i all_jobs.py) to run programs
-###### 4. Optional: Import your network infrascrutures inventory into the sqlite database, and preform data comparison (i.e SQL comparison)
+requires python 3.x
+0. The scripts allows data storing and cred retrevial to be done in the native directory of which the script is running, you can manually modify it if you so choose.
+1. Verify you have SQLite DB application (https://sqlitebrowser.org/), if you desire to utilize a sql database, and correlating script 'all_sql.py'
+2. Verify you have all the correct py libraries installed (e.g. pip -install {libary_name}) 
+3. Execute main job with python (e.g. python -i all_jobs.py) to run program
+4. Optional: Import your network infrascrutures inventory into the sqlite database, and preform data comparison (i.e SQL comparison)
 
 #### Additionals
 Running vuln_cvrf.py requires the use of the Sqlite DB referenced earlier. If this script is intiated, it will iniate the download of cvrf data from Cisco for all the Vulns you stored earlier, into a searlized xml format.
