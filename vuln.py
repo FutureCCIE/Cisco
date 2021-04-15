@@ -151,7 +151,7 @@ class vuln(object):
 if __name__ == '__main__':
     vuln = vuln()
     # to run
-    test = vuln.auth('outputfileone', 'outputfiletwo')
+    #test = vuln.auth('outputfileone', 'outputfiletwo')
     #
     ### What this script does
     # 1. Configuration.json is used for cred storing
