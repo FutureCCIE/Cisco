@@ -3,16 +3,15 @@
 #### This development of Cisco psirt automation, provides the ability to pull live vulnerability data from Cisco's repository.
 ###### Data retrieved: Advisory Id, Advisory Title, Bug IDs, ipsSignatures, cves, cwes, cvssBaseScore, sir, cvrfUrl, firstPublished, lastUpdated, publicationUrl, and productNames
 
-Requirements:
+#### Requirements:
 ###### 0. Creation of an account with Cisco
-###### 1. Registering of an polling source with Cisco 
+###### 1. Registeration of an polling source with Cisco 
 ###### 2. Generate or create access method (i.e. shared secret/key) with registered applicaiton.
 
 This script simplifies auth, data retrevial, and storing. 
 In addition, there is an option to utilize sqlite3 and a database, for structured psirt vuln data storing.
 
-
-### How to run:
+#### How to run:
 ##### requires python 3.x
 ###### 0. The scripts allows data storing and cred retrevial to be done in the native directory of which the script is running, you can manually modify it if you so choose.
 ###### 1. Verify you have SQLite DB application (https://sqlitebrowser.org/), if you desire to utilize a sql database, and correlating script 'all_sql.py'
