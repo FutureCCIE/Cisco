@@ -5,7 +5,7 @@
 ###### Advisory Id, Advisory Title, Bug IDs, ipsSignatures, cves, cwes, cvssBaseScore, sir, cvrfUrl, firstPublished, lastUpdated, publicationUrl, and productNames.
 
 #### Requirements:
-###### 0. Cisco [![API CONSOLE](https://apiconsole.cisco.com/)] account registration
+###### 0. Cisco [[API CONSOLE](https://apiconsole.cisco.com/)] account registration
 ###### 1. Create and register the application you will be using.
 ###### 2. Generate or create access method (i.e. shared secret/key) with registered applicaiton.
 
