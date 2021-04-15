@@ -1,6 +1,7 @@
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/FutureCCIE/Cisco-psirt)
 ## Cisco psirt vulnerbility data retrevial and storing
-#### This development of Cisco psirt automation, allows users the ability to pull live vulnerability (cve) data from Cisco's repository.
+#### This development of Cisco psirt automation, provides the ability to pull live vulnerability data from Cisco's repository.
+###### Data retrieved: Advisory Id, Advisory Title, Bug IDs, ipsSignatures, cves, cwes, cvssBaseScore, sir, cvrfUrl, firstPublished, lastUpdated, publicationUrl, and productNames
 
 Requirements:
 ###### 0. Creation of an account with Cisco
