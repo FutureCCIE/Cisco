@@ -219,5 +219,5 @@ class all_sql(object):
     
 if __name__ == '__main__':
    all_sql = all_sql()
-   test =  all_sql.file_interpreter('psirtjunk.txt', 'test_cisco_vuln')
+   #test =  all_sql.file_interpreter('psirtjunk.txt', 'test_cisco_vuln')
    #
