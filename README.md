@@ -13,7 +13,7 @@ In addition, there is an option to utilize sqlite3 and a database, for structure
 
 ### How to run:
 ##### requires python 3.x
-###### 0. The scripts allows data storing and cred retrevial to be done in the native directory of which the script is running, you can manual modify this if you so choose.
+###### 0. The scripts allows data storing and cred retrevial to be done in the native directory of which the script is running, you can manually modify it if you so choose.
 ###### 1. Verify you have SQLite DB application (https://sqlitebrowser.org/), if you desire to utilize a sql database, and correlating script 'all_sql.py'
 ###### 2. Verify you have all the correct py libraries installed (e.g. pip -install {libary_name}) 
 ###### 3. Execute main.py with python (e.g. python -i all_jobs.py) to run programs
