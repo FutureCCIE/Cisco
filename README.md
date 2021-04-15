@@ -17,3 +17,6 @@ In addition, there is an option to utilize sqlite3 and a database, for structure
 ###### 2. Verify you have all the correct py libraries installed (e.g. pip -install {libary_name}) 
 ###### 3. Execute main.py with python (e.g. python -i all_jobs.py) to run programs
 ###### 4. Optional: Import your network infrascrutures inventory into the sqlite database, and preform data comparison (i.e SQL comparison)
+
+
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/FutureCCIE/Cisco-psirt)
