@@ -16,6 +16,6 @@ all_sql = all_sql()
 #   Cisco psirt vulnerbilities
 #       * two seperate data stores: vulns & products for sql pri_key relating
 #
-psirt_data = vuln.get_bearer_token(f'cisco_vuln{today}.txt', f'cisco_products{today}.txt')
+psirt_data = vuln.auth(f'cisco_vuln{today}.txt', f'cisco_products{today}.txt')
 cisco_vuln = all_sql.file_interpreter(f'cisco_vuln{today}.txt', f'cisco_vuln{today}')
 cisco_vulns = all_sql.file_interpreter(f'cisco_products{today}.txt', f'cisco_products{today}')
