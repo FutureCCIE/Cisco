@@ -1,0 +1,9 @@
+{
+"servers": {
+        "cisco": {
+			"psirt_key" : "_KEY_",
+            "psirt_secret" : "_SECRET_"
+        }
+    }
+	
+}
