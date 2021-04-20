@@ -36,6 +36,7 @@ In addition, there is an option to utilize sqlite3 and a database, for structure
 
 #### What the code does:
 ``` vuln.py ```
+
 0. Configuration.json is used for cred storing
 1. Auth with cisco oauth, token retrieval
 2. Token auth and get data with cisco endpoint
@@ -45,6 +46,7 @@ In addition, there is an option to utilize sqlite3 and a database, for structure
 4. Searlizes the data with pickle and stores as an outputfile, which can be desearlized/opened and interpreted at will.
 
 ``` all_sql.py ```
+
 0. De-searlizes the stored data into .txt formatting
 1. Validation of database existance
 2. Auto-generation of sql table. As listed in the ```all_jobs.py```  the first value passed into all_sql.file_interpreter() is the previously searlized data, the second is what your table name will be in sql.
