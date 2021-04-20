@@ -56,7 +56,7 @@ class vuln(object):
             res = json.loads(response.text)
             self.bearer_token.update(res)
             self.token = self.bearer_token['access_token']
-            print(f'[I] psirt http-200 success, {self._token_} bearer token stored')
+            print(f'[I] psirt http-200 success, {self.token} bearer token stored')
             print(f'[I] psirt token expires in {self.bearer_token["expires_in"]} seconds')
             self.get_adv_bulk(fileone, filetwo)
             return
