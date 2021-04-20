@@ -11,7 +11,7 @@
 ``` pip -install {libary_name}  ```
 
 #### Requirements:
-0. Copy all the files from the repo into the directory/folder you will be running the python in.
+0. Copy all the files from the repo into the directory/folder you will be executing the script from.
 1. configuration.json: used for cred storing. Please keep the same formatting as listed in the example, and provided below
 ``` {
 "servers": {
