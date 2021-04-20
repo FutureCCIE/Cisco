@@ -30,7 +30,7 @@
 5. Nugget: Running vuln_cvrf.py requires the use of the Sqlite DB referenced earlier. If this script is intiated, it will iniate the download of cvrf data from Cisco for all the Vulns you stored earlier, into a searlized xml format.
 6. Nugget: You can pass the ```all_sql.py``` class any file type: csv, txt, searlized, and it will extract the data into key/value pairs and store the data in the desired database table.
 
-#### How it works
+#### How it works:
 This script simplifies auth, data retrevial, and storing. 
 In addition, there is an option to utilize sqlite3 and a database, for structured psirt vuln data storing and data relating. This will allow the storing of vulnerbility data for all vulnerabilities that have been released in the past 5 years, via Cisco.
 
