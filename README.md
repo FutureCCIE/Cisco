@@ -33,4 +33,12 @@
 This script simplifies auth, data retrevial, and storing. 
 In addition, there is an option to utilize sqlite3 and a database, for structured psirt vuln data storing and data relating. This will allow the storing of vulnerbility data for all vulnerabilities that have been released in the past 5 years, via Cisco.
 
-
+#### What the code does:
+``` vuln.py ```
+1. Configuration.json is used for cred storing
+2. Auth with cisco oauth, token retrieval
+3. Token auth and get data with cisco endpoint
+4. Data sent to two parsing functions: 
+   a. first compiles the data into a formatting with the vulnerability code as the primary key, and appending each product additionally 1NF formatting (could be useful for data comparison)
+   b. second compiles the data in a easy viewing parsing format, but non SQL NF.
+5. Searlizes the data with pickle and stores as an outputfile, which can be desearlized/opened and interpreted at will.
