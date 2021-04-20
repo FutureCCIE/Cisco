@@ -34,8 +34,8 @@ class vuln(object):
         with open(f'{self.path}/{config_file}','r') as f:
                 raw_file = f.read()
                 config_raw = json.loads(raw_file)
-                self.key = config_raw['servers']['cisco_psirt']['psirt_key']
-                self.secret = config_raw['servers']['cisco_psirt']['psirt_secret']
+                self.key = config_raw['servers']['cisco']['psirt_key']
+                self.secret = config_raw['servers']['cisco']['psirt_secret']
     # time tracker
     def timestamp(method):
        def wrapper(*args, **kwargs):
