@@ -24,7 +24,7 @@
 } 
 ```
 2. Verify you have SQLite DB application (https://sqlitebrowser.org/), if you desire to utilize a sql database, and correlating script 'all_sql.py'
-3. Execute main job with python to run program
+3. Execute the main task with python to run all the scripts.
 ``` python -i all_jobs.py ```
 4. Optional: Import your network infrascrutures inventory into the sqlite database, and preform data comparison (i.e SQL comparison)
 5. Nugget: Running vuln_cvrf.py requires the use of the Sqlite DB referenced earlier. If this script is intiated, it will iniate the download of cvrf data from Cisco for all the Vulns you stored earlier, into a searlized xml format.
