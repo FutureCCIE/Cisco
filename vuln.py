@@ -1,5 +1,5 @@
 # Cisco psirt vuln data pull
-# Author: David Murphy
+# Author: FutureCoder
 # Date: 2020-08-21
 
 import requests
